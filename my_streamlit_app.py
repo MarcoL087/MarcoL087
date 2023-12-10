@@ -12,9 +12,4 @@ df = pd.read_csv(link)
 
 df
 
-df_correlation = sns.heatmap(df.corr(), 
-								center=0,
-								cmap = sns.color_palette("vlag", as_cmap=True)
-								)
 
-st.pyplot(viz_correlation.figure)

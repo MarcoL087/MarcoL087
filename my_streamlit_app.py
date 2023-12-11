@@ -5,11 +5,7 @@ import numpy as np
 
 import streamlit as st
 
-st.title('Hello Wilders, welcome to the best application of the year!')
+import streamlit as st
 
-link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
-df = pd.read_csv(link)
-
-df
-
+st.title('Hello Wilders, welcome to my application!')
 
